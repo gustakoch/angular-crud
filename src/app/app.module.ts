@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
@@ -15,6 +16,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatList, MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+
+import { ForDirective } from './directives/for.directive';
 
 @NgModule({
   declarations: [
@@ -24,6 +28,8 @@ import { MatCardModule } from '@angular/material/card';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
+    ForDirective,
+    ProductCreateComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +38,8 @@ import { MatCardModule } from '@angular/material/card';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,18 @@
+form {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1.5rem;
+}
+
+button {
+    margin-top: 1.5rem;
+}
+
+.save-button {
+    margin-right: 1rem;
+}
+
+.snack-bar {
+    color: green;
+}

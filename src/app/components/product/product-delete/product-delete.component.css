@@ -9,6 +9,9 @@ button {
     margin-top: 1.5rem;
 }
 
-.save-button {
+.delete-button {
     margin-right: 1rem;
+
+    background: #e35e6b;
+    color: #fff;
 }
